@@ -23,6 +23,8 @@
 
 The project explores how software, embedded devices, and AI can work together to make patient information easier to capture, organize, and review.
 
+> **Hackathon achievement:** Developed by **Anisha More and Zaid Shaikh** as teammates for a hackathon, where our team achieved a **Top 5 finish**.
+
 ## System overview
 
 <p align="center">
@@ -62,13 +64,11 @@ See [architecture notes](./docs/ARCHITECTURE.md) for the conceptual data flow.
 
 ## Local development
 
-The source repository is private; you need access before cloning it.
-
 ### 1. Get the source
 
 ```bash
-git clone https://github.com/ZaidShaikh-2005/MedIntel.git
-cd MedIntel
+git clone https://github.com/amanishamore1-ux/MidIntel.git
+cd MidIntel
 python -m venv .venv
 ```
 
@@ -92,7 +92,7 @@ Use the dependency definition included in your checkout and a compatible Python 
 python -m pip install -r requirements.txt
 ```
 
-Configure the application’s database, MQTT connection, and Ollama integration before starting it. The exact setting names, model files, MQTT topics, and API routes must come from the source.
+Configure the application's database, MQTT connection, and Ollama integration before starting it. The exact setting names, model files, MQTT topics, and API routes must come from the source.
 
 See the [configuration guide](./docs/CONFIGURATION.md).
 
@@ -109,7 +109,7 @@ python manage.py runserver
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-These are standard Django development commands. They have not been tested against this private checkout; any project-specific startup services must also be started as documented in its source.
+These are standard Django development commands. Any project-specific startup services must also be started as documented in the source.
 
 ## Documentation
 
@@ -119,9 +119,10 @@ These are standard Django development commands. They have not been tested agains
 
 ## Contact
 
-**Zaid Shaikh** · Software Development, Embedded Systems & IoT
+**Anisha More** · Software Development & AI-Powered Applications
 
-[Portfolio](https://zaidshaikh-2005.github.io/Portfolio/) ·
-[Contact](https://zaidshaikh-2005.github.io/Portfolio/contact.html) ·
-[LinkedIn](https://www.linkedin.com/in/zaid-shaikh-2oo5/) ·
-[GitHub](https://github.com/ZaidShaikh-2005)
+[Portfolio](https://amanishamore1-ux.github.io/MyProtfolio/) ·
+[Contact](https://amanishamore1-ux.github.io/MyProtfolio/contact.html) ·
+[LinkedIn](https://www.linkedin.com/in/anisha-more-6872b93b4/) ·
+[GitHub](https://github.com/amanishamore1-ux) ·
+[Email](mailto:amanishamore1@gmail.com)
